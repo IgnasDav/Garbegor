@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F83EC6C2B13C55200C4FD2E /* GarbegorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83EC6B2B13C55200C4FD2E /* GarbegorApp.swift */; };
+		2F83EC6E2B13C55200C4FD2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83EC6D2B13C55200C4FD2E /* ContentView.swift */; };
+		2F83EC702B13C55300C4FD2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F83EC6F2B13C55300C4FD2E /* Assets.xcassets */; };
+		2F83EC732B13C55300C4FD2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F83EC722B13C55300C4FD2E /* Preview Assets.xcassets */; };
+		2F83EC7E2B13C55300C4FD2E /* GarbegorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83EC7D2B13C55300C4FD2E /* GarbegorTests.swift */; };
+		2F83EC882B13C55300C4FD2E /* GarbegorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83EC872B13C55300C4FD2E /* GarbegorUITests.swift */; };
+		2F83EC8A2B13C55300C4FD2E /* GarbegorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83EC892B13C55300C4FD2E /* GarbegorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F83EC7A2B13C55300C4FD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F83EC602B13C55100C4FD2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F83EC672B13C55100C4FD2E;
+			remoteInfo = Garbegor;
+		};
+		2F83EC842B13C55300C4FD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F83EC602B13C55100C4FD2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F83EC672B13C55100C4FD2E;
+			remoteInfo = Garbegor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F83EC682B13C55200C4FD2E /* Garbegor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Garbegor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F83EC6B2B13C55200C4FD2E /* GarbegorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarbegorApp.swift; sourceTree = "<group>"; };
+		2F83EC6D2B13C55200C4FD2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F83EC6F2B13C55300C4FD2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F83EC722B13C55300C4FD2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F83EC742B13C55300C4FD2E /* Garbegor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Garbegor.entitlements; sourceTree = "<group>"; };
+		2F83EC792B13C55300C4FD2E /* GarbegorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarbegorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F83EC7D2B13C55300C4FD2E /* GarbegorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarbegorTests.swift; sourceTree = "<group>"; };
+		2F83EC832B13C55300C4FD2E /* GarbegorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarbegorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F83EC872B13C55300C4FD2E /* GarbegorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarbegorUITests.swift; sourceTree = "<group>"; };
+		2F83EC892B13C55300C4FD2E /* GarbegorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarbegorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F83EC652B13C55100C4FD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F83EC762B13C55300C4FD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F83EC802B13C55300C4FD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F83EC5F2B13C55100C4FD2E = {
+			isa = PBXGroup;
+			children = (
+				2F83EC6A2B13C55200C4FD2E /* Garbegor */,
+				2F83EC7C2B13C55300C4FD2E /* GarbegorTests */,
+				2F83EC862B13C55300C4FD2E /* GarbegorUITests */,
+				2F83EC692B13C55200C4FD2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F83EC692B13C55200C4FD2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F83EC682B13C55200C4FD2E /* Garbegor.app */,
+				2F83EC792B13C55300C4FD2E /* GarbegorTests.xctest */,
+				2F83EC832B13C55300C4FD2E /* GarbegorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F83EC6A2B13C55200C4FD2E /* Garbegor */ = {
+			isa = PBXGroup;
+			children = (
+				2F83EC6B2B13C55200C4FD2E /* GarbegorApp.swift */,
+				2F83EC6D2B13C55200C4FD2E /* ContentView.swift */,
+				2F83EC6F2B13C55300C4FD2E /* Assets.xcassets */,
+				2F83EC742B13C55300C4FD2E /* Garbegor.entitlements */,
+				2F83EC712B13C55300C4FD2E /* Preview Content */,
+			);
+			path = Garbegor;
+			sourceTree = "<group>";
+		};
+		2F83EC712B13C55300C4FD2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F83EC722B13C55300C4FD2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F83EC7C2B13C55300C4FD2E /* GarbegorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F83EC7D2B13C55300C4FD2E /* GarbegorTests.swift */,
+			);
+			path = GarbegorTests;
+			sourceTree = "<group>";
+		};
+		2F83EC862B13C55300C4FD2E /* GarbegorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F83EC872B13C55300C4FD2E /* GarbegorUITests.swift */,
+				2F83EC892B13C55300C4FD2E /* GarbegorUITestsLaunchTests.swift */,
+			);
+			path = GarbegorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F83EC672B13C55100C4FD2E /* Garbegor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F83EC8D2B13C55300C4FD2E /* Build configuration list for PBXNativeTarget "Garbegor" */;
+			buildPhases = (
+				2F83EC642B13C55100C4FD2E /* Sources */,
+				2F83EC652B13C55100C4FD2E /* Frameworks */,
+				2F83EC662B13C55100C4FD2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Garbegor;
+			productName = Garbegor;
+			productReference = 2F83EC682B13C55200C4FD2E /* Garbegor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F83EC782B13C55300C4FD2E /* GarbegorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F83EC902B13C55300C4FD2E /* Build configuration list for PBXNativeTarget "GarbegorTests" */;
+			buildPhases = (
+				2F83EC752B13C55300C4FD2E /* Sources */,
+				2F83EC762B13C55300C4FD2E /* Frameworks */,
+				2F83EC772B13C55300C4FD2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F83EC7B2B13C55300C4FD2E /* PBXTargetDependency */,
+			);
+			name = GarbegorTests;
+			productName = GarbegorTests;
+			productReference = 2F83EC792B13C55300C4FD2E /* GarbegorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F83EC822B13C55300C4FD2E /* GarbegorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F83EC932B13C55300C4FD2E /* Build configuration list for PBXNativeTarget "GarbegorUITests" */;
+			buildPhases = (
+				2F83EC7F2B13C55300C4FD2E /* Sources */,
+				2F83EC802B13C55300C4FD2E /* Frameworks */,
+				2F83EC812B13C55300C4FD2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F83EC852B13C55300C4FD2E /* PBXTargetDependency */,
+			);
+			name = GarbegorUITests;
+			productName = GarbegorUITests;
+			productReference = 2F83EC832B13C55300C4FD2E /* GarbegorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F83EC602B13C55100C4FD2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2F83EC672B13C55100C4FD2E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2F83EC782B13C55300C4FD2E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2F83EC672B13C55100C4FD2E;
+					};
+					2F83EC822B13C55300C4FD2E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2F83EC672B13C55100C4FD2E;
+					};
+				};
+			};
+			buildConfigurationList = 2F83EC632B13C55100C4FD2E /* Build configuration list for PBXProject "Garbegor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F83EC5F2B13C55100C4FD2E;
+			productRefGroup = 2F83EC692B13C55200C4FD2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F83EC672B13C55100C4FD2E /* Garbegor */,
+				2F83EC782B13C55300C4FD2E /* GarbegorTests */,
+				2F83EC822B13C55300C4FD2E /* GarbegorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F83EC662B13C55100C4FD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F83EC732B13C55300C4FD2E /* Preview Assets.xcassets in Resources */,
+				2F83EC702B13C55300C4FD2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F83EC772B13C55300C4FD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F83EC812B13C55300C4FD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F83EC642B13C55100C4FD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F83EC6E2B13C55200C4FD2E /* ContentView.swift in Sources */,
+				2F83EC6C2B13C55200C4FD2E /* GarbegorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F83EC752B13C55300C4FD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F83EC7E2B13C55300C4FD2E /* GarbegorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F83EC7F2B13C55300C4FD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F83EC8A2B13C55300C4FD2E /* GarbegorUITestsLaunchTests.swift in Sources */,
+				2F83EC882B13C55300C4FD2E /* GarbegorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F83EC7B2B13C55300C4FD2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F83EC672B13C55100C4FD2E /* Garbegor */;
+			targetProxy = 2F83EC7A2B13C55300C4FD2E /* PBXContainerItemProxy */;
+		};
+		2F83EC852B13C55300C4FD2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F83EC672B13C55100C4FD2E /* Garbegor */;
+			targetProxy = 2F83EC842B13C55300C4FD2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F83EC8B2B13C55300C4FD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F83EC8C2B13C55300C4FD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2F83EC8E2B13C55300C4FD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Garbegor/Garbegor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Garbegor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.Garbegor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2F83EC8F2B13C55300C4FD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Garbegor/Garbegor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Garbegor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.Garbegor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2F83EC912B13C55300C4FD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GarbegorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garbegor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Garbegor";
+			};
+			name = Debug;
+		};
+		2F83EC922B13C55300C4FD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GarbegorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garbegor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Garbegor";
+			};
+			name = Release;
+		};
+		2F83EC942B13C55300C4FD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GarbegorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Garbegor;
+			};
+			name = Debug;
+		};
+		2F83EC952B13C55300C4FD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GarbegorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Garbegor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F83EC632B13C55100C4FD2E /* Build configuration list for PBXProject "Garbegor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F83EC8B2B13C55300C4FD2E /* Debug */,
+				2F83EC8C2B13C55300C4FD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F83EC8D2B13C55300C4FD2E /* Build configuration list for PBXNativeTarget "Garbegor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F83EC8E2B13C55300C4FD2E /* Debug */,
+				2F83EC8F2B13C55300C4FD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F83EC902B13C55300C4FD2E /* Build configuration list for PBXNativeTarget "GarbegorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F83EC912B13C55300C4FD2E /* Debug */,
+				2F83EC922B13C55300C4FD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F83EC932B13C55300C4FD2E /* Build configuration list for PBXNativeTarget "GarbegorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F83EC942B13C55300C4FD2E /* Debug */,
+				2F83EC952B13C55300C4FD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F83EC602B13C55100C4FD2E /* Project object */;
+}

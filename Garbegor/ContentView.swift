@@ -5,17 +5,25 @@
 //  Created by Ignas Davulis on 2023-11-26.
 //
 
+import Foundation
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            VStack {
+                Text("Image Cleaner")
+                FileViewer()
+            }
+            .frame(maxWidth: .infinity)
+            .frame(maxHeight: .infinity)
+            .border(.primary)
+            .clipShape(
+                .rect(cornerRadius: 5)
+            )
         }
-        .padding()
+        .padding(30)
+        .preferredColorScheme(.light)
     }
 }
 

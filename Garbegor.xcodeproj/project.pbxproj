@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F3A9ED72B4DBB4400A398B8 /* FileTypeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A9ED62B4DBB4400A398B8 /* FileTypeSelector.swift */; };
+		2F7C85E72B48ABDE00FB7BF8 /* FileViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C85E62B48ABDE00FB7BF8 /* FileViewer.swift */; };
+		2F7C85EA2B48B1F800FB7BF8 /* DateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C85E92B48B1F800FB7BF8 /* DateSelector.swift */; };
+		2F7C85EF2B49DAC100FB7BF8 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C85EE2B49DAC100FB7BF8 /* FileManager.swift */; };
+		2F7C85F32B4AF1E000FB7BF8 /* FileDeleteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C85F22B4AF1E000FB7BF8 /* FileDeleteManager.swift */; };
+		2F7C85F72B4B241100FB7BF8 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C85F62B4B241100FB7BF8 /* NotificationService.swift */; };
 		2F83EC6C2B13C55200C4FD2E /* GarbegorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83EC6B2B13C55200C4FD2E /* GarbegorApp.swift */; };
 		2F83EC6E2B13C55200C4FD2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83EC6D2B13C55200C4FD2E /* ContentView.swift */; };
 		2F83EC702B13C55300C4FD2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F83EC6F2B13C55300C4FD2E /* Assets.xcassets */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F3A9ED62B4DBB4400A398B8 /* FileTypeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTypeSelector.swift; sourceTree = "<group>"; };
+		2F7C85E62B48ABDE00FB7BF8 /* FileViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewer.swift; sourceTree = "<group>"; };
+		2F7C85E92B48B1F800FB7BF8 /* DateSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelector.swift; sourceTree = "<group>"; };
+		2F7C85EE2B49DAC100FB7BF8 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		2F7C85F22B4AF1E000FB7BF8 /* FileDeleteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDeleteManager.swift; sourceTree = "<group>"; };
+		2F7C85F62B4B241100FB7BF8 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		2F83EC682B13C55200C4FD2E /* Garbegor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Garbegor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F83EC6B2B13C55200C4FD2E /* GarbegorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarbegorApp.swift; sourceTree = "<group>"; };
 		2F83EC6D2B13C55200C4FD2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +84,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F3A9ED32B4DBB0200A398B8 /* FileTypeSelector */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A9ED62B4DBB4400A398B8 /* FileTypeSelector.swift */,
+			);
+			path = FileTypeSelector;
+			sourceTree = "<group>";
+		};
+		2F7C85E22B48AB0800FB7BF8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A9ED32B4DBB0200A398B8 /* FileTypeSelector */,
+				2F7C85E82B48B1D300FB7BF8 /* DateSelector */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2F7C85E32B48AB1B00FB7BF8 /* FileViewer */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C85E62B48ABDE00FB7BF8 /* FileViewer.swift */,
+			);
+			path = FileViewer;
+			sourceTree = "<group>";
+		};
+		2F7C85E82B48B1D300FB7BF8 /* DateSelector */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C85E92B48B1F800FB7BF8 /* DateSelector.swift */,
+			);
+			path = DateSelector;
+			sourceTree = "<group>";
+		};
+		2F7C85EB2B49D84000FB7BF8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C85E32B48AB1B00FB7BF8 /* FileViewer */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2F7C85EC2B49DA6E00FB7BF8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C85F42B4B23E500FB7BF8 /* Notifications */,
+				2F7C85ED2B49DA7A00FB7BF8 /* FileReader */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2F7C85ED2B49DA7A00FB7BF8 /* FileReader */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C85EE2B49DAC100FB7BF8 /* FileManager.swift */,
+				2F7C85F22B4AF1E000FB7BF8 /* FileDeleteManager.swift */,
+			);
+			path = FileReader;
+			sourceTree = "<group>";
+		};
+		2F7C85F42B4B23E500FB7BF8 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C85F52B4B23F500FB7BF8 /* Services */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		2F7C85F52B4B23F500FB7BF8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C85F62B4B241100FB7BF8 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		2F83EC5F2B13C55100C4FD2E = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +182,9 @@
 		2F83EC6A2B13C55200C4FD2E /* Garbegor */ = {
 			isa = PBXGroup;
 			children = (
+				2F7C85EC2B49DA6E00FB7BF8 /* Core */,
+				2F7C85EB2B49D84000FB7BF8 /* Features */,
+				2F7C85E22B48AB0800FB7BF8 /* Components */,
 				2F83EC6B2B13C55200C4FD2E /* GarbegorApp.swift */,
 				2F83EC6D2B13C55200C4FD2E /* ContentView.swift */,
 				2F83EC6F2B13C55300C4FD2E /* Assets.xcassets */,
@@ -259,7 +349,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7C85EF2B49DAC100FB7BF8 /* FileManager.swift in Sources */,
+				2F7C85EA2B48B1F800FB7BF8 /* DateSelector.swift in Sources */,
+				2F7C85F72B4B241100FB7BF8 /* NotificationService.swift in Sources */,
+				2F7C85F32B4AF1E000FB7BF8 /* FileDeleteManager.swift in Sources */,
+				2F3A9ED72B4DBB4400A398B8 /* FileTypeSelector.swift in Sources */,
 				2F83EC6E2B13C55200C4FD2E /* ContentView.swift in Sources */,
+				2F7C85E72B48ABDE00FB7BF8 /* FileViewer.swift in Sources */,
 				2F83EC6C2B13C55200C4FD2E /* GarbegorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,12 @@
+[!]  --- xcodebuild: Using the first of multiple matching destinations:
+{ platform:macOS, arch:arm64, id:00006021-001428583443C01E }
+{ platform:macOS, arch:x86_64, id:00006021-001428583443C01E }
+[Garbegor] Processing empty-Garbegor.plist
+Signing Garbegor.app (in target 'Garbegor' from project 'Garbegor')
+
+-----------------------------
+-- xcodebuild.nvim summary --
+-----------------------------
+
+  ✔ Build Succeeded
+

@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct FileTypeSelector: View {
+    @Binding var selectedFileType: String
+    var fileTypes: [String]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Picker("File Type", selection: $selectedFileType) {
+            ForEach(fileTypes, id: \.self) {
+               Text($0)
+            }
+        }
     }
 }
 
 #Preview {
-    FileTypeSelector()
+    @State var selectedFileType: String = "hello"
+    return FileTypeSelector(selectedFileType: $selectedFileType, fileTypes: ["Png", "Svg", "Txt"])
 }

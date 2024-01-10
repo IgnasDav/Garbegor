@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct DateSelector: View {
+    @Binding var hourSelection: Date
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        DatePicker("Hour Setter", selection: $hourSelection, displayedComponents: [.hourAndMinute])
     }
 }
 
 #Preview {
-    DateSelector()
+    @State var hourBinder = Date()
+    return DateSelector(hourSelection: $hourBinder)
 }

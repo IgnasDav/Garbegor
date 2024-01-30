@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationStack{
             VStack {
                 Text("Image Cleaner")
-                FileViewer()
+                PanelView()
             }
             .frame(maxWidth: .infinity)
             .frame(maxHeight: .infinity)

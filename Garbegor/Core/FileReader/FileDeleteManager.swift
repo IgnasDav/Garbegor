@@ -10,6 +10,7 @@ protocol FileDeleteManager {
     var fileManager: FileManager { get }
     var dirPath: String { get }
     var fileNames: [String] { get set }
+    var fileTypeToDelete: String { get set }
     
     func handleTimerForDeleting(time: Date) -> Void
     func deleteAllFiles() -> Void
@@ -21,6 +22,7 @@ class FileDeleter: FileDeleteManager {
     internal var fileNames: [String] = []
     var dirPath: String = ""
     var isFinished: Bool = false
+    var fileTypeToDelete: String = ""
     
     func handleTimerForDeleting(time: Date) {
         let timer = Timer(fireAt: time, interval: 0, target: self, selector: #selector(deleteAllFiles), userInfo: nil, repeats: false)
@@ -30,7 +32,7 @@ class FileDeleter: FileDeleteManager {
     @objc func deleteAllFiles() {
         do {
             for name in fileNames {
-                if fileManager.fileExists(atPath: dirPath + name) {
+                if fileManager.fileExists(atPath: dirPath + name) && name.contains(fileTypeToDelete) {
                     try fileManager.removeItem(atPath: dirPath + name)
                 }
             }

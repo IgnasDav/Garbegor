@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F3A9ED72B4DBB4400A398B8 /* FileTypeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A9ED62B4DBB4400A398B8 /* FileTypeSelector.swift */; };
-		2F7C85E72B48ABDE00FB7BF8 /* FileViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C85E62B48ABDE00FB7BF8 /* FileViewer.swift */; };
+		2F7C85E72B48ABDE00FB7BF8 /* FilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C85E62B48ABDE00FB7BF8 /* FilesView.swift */; };
 		2F7C85EA2B48B1F800FB7BF8 /* DateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C85E92B48B1F800FB7BF8 /* DateSelector.swift */; };
 		2F7C85EF2B49DAC100FB7BF8 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C85EE2B49DAC100FB7BF8 /* FileManager.swift */; };
 		2F7C85F32B4AF1E000FB7BF8 /* FileDeleteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C85F22B4AF1E000FB7BF8 /* FileDeleteManager.swift */; };
@@ -20,6 +20,9 @@
 		2F83EC7E2B13C55300C4FD2E /* GarbegorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83EC7D2B13C55300C4FD2E /* GarbegorTests.swift */; };
 		2F83EC882B13C55300C4FD2E /* GarbegorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83EC872B13C55300C4FD2E /* GarbegorUITests.swift */; };
 		2F83EC8A2B13C55300C4FD2E /* GarbegorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83EC892B13C55300C4FD2E /* GarbegorUITestsLaunchTests.swift */; };
+		2FFA4DE52B51BE94003B9B77 /* PanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA4DE42B51BE94003B9B77 /* PanelView.swift */; };
+		2FFA4DE72B51BF14003B9B77 /* PanelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA4DE62B51BF14003B9B77 /* PanelModel.swift */; };
+		2FFA4DE92B51C25D003B9B77 /* PanelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA4DE82B51C25D003B9B77 /* PanelViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		2F3A9ED62B4DBB4400A398B8 /* FileTypeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTypeSelector.swift; sourceTree = "<group>"; };
-		2F7C85E62B48ABDE00FB7BF8 /* FileViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewer.swift; sourceTree = "<group>"; };
+		2F7C85E62B48ABDE00FB7BF8 /* FilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesView.swift; sourceTree = "<group>"; };
 		2F7C85E92B48B1F800FB7BF8 /* DateSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelector.swift; sourceTree = "<group>"; };
 		2F7C85EE2B49DAC100FB7BF8 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		2F7C85F22B4AF1E000FB7BF8 /* FileDeleteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDeleteManager.swift; sourceTree = "<group>"; };
@@ -57,6 +60,9 @@
 		2F83EC832B13C55300C4FD2E /* GarbegorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarbegorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F83EC872B13C55300C4FD2E /* GarbegorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarbegorUITests.swift; sourceTree = "<group>"; };
 		2F83EC892B13C55300C4FD2E /* GarbegorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarbegorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FFA4DE42B51BE94003B9B77 /* PanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelView.swift; sourceTree = "<group>"; };
+		2FFA4DE62B51BF14003B9B77 /* PanelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelModel.swift; sourceTree = "<group>"; };
+		2FFA4DE82B51C25D003B9B77 /* PanelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,19 +98,12 @@
 			path = FileTypeSelector;
 			sourceTree = "<group>";
 		};
-		2F7C85E22B48AB0800FB7BF8 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				2F3A9ED32B4DBB0200A398B8 /* FileTypeSelector */,
-				2F7C85E82B48B1D300FB7BF8 /* DateSelector */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
 		2F7C85E32B48AB1B00FB7BF8 /* FileViewer */ = {
 			isa = PBXGroup;
 			children = (
-				2F7C85E62B48ABDE00FB7BF8 /* FileViewer.swift */,
+				2FFA4DE32B51BC8B003B9B77 /* ViewModels */,
+				2FFA4DE22B51BC84003B9B77 /* Models */,
+				2FFA4DE12B51BC7D003B9B77 /* Views */,
 			);
 			path = FileViewer;
 			sourceTree = "<group>";
@@ -120,6 +119,7 @@
 		2F7C85EB2B49D84000FB7BF8 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				2FFA4DDA2B51BB38003B9B77 /* Panel */,
 				2F7C85E32B48AB1B00FB7BF8 /* FileViewer */,
 			);
 			path = Features;
@@ -182,9 +182,11 @@
 		2F83EC6A2B13C55200C4FD2E /* Garbegor */ = {
 			isa = PBXGroup;
 			children = (
+				2FFA4DDF2B51BC66003B9B77 /* Common */,
+				2F7C85E82B48B1D300FB7BF8 /* DateSelector */,
+				2F3A9ED32B4DBB0200A398B8 /* FileTypeSelector */,
 				2F7C85EC2B49DA6E00FB7BF8 /* Core */,
 				2F7C85EB2B49D84000FB7BF8 /* Features */,
-				2F7C85E22B48AB0800FB7BF8 /* Components */,
 				2F83EC6B2B13C55200C4FD2E /* GarbegorApp.swift */,
 				2F83EC6D2B13C55200C4FD2E /* ContentView.swift */,
 				2F83EC6F2B13C55300C4FD2E /* Assets.xcassets */,
@@ -217,6 +219,77 @@
 				2F83EC892B13C55300C4FD2E /* GarbegorUITestsLaunchTests.swift */,
 			);
 			path = GarbegorUITests;
+			sourceTree = "<group>";
+		};
+		2FFA4DDA2B51BB38003B9B77 /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				2FFA4DDD2B51BBBB003B9B77 /* ViewModels */,
+				2FFA4DDC2B51BBB4003B9B77 /* Views */,
+				2FFA4DDB2B51BBA5003B9B77 /* Models */,
+			);
+			path = Panel;
+			sourceTree = "<group>";
+		};
+		2FFA4DDB2B51BBA5003B9B77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FFA4DE62B51BF14003B9B77 /* PanelModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FFA4DDC2B51BBB4003B9B77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2FFA4DE42B51BE94003B9B77 /* PanelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2FFA4DDD2B51BBBB003B9B77 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2FFA4DE82B51C25D003B9B77 /* PanelViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2FFA4DDF2B51BC66003B9B77 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2FFA4DE02B51BC71003B9B77 /* Screens */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2FFA4DE02B51BC71003B9B77 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2FFA4DE12B51BC7D003B9B77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C85E62B48ABDE00FB7BF8 /* FilesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2FFA4DE22B51BC84003B9B77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FFA4DE32B51BC8B003B9B77 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,10 +425,13 @@
 				2F7C85EF2B49DAC100FB7BF8 /* FileManager.swift in Sources */,
 				2F7C85EA2B48B1F800FB7BF8 /* DateSelector.swift in Sources */,
 				2F7C85F72B4B241100FB7BF8 /* NotificationService.swift in Sources */,
+				2FFA4DE52B51BE94003B9B77 /* PanelView.swift in Sources */,
 				2F7C85F32B4AF1E000FB7BF8 /* FileDeleteManager.swift in Sources */,
 				2F3A9ED72B4DBB4400A398B8 /* FileTypeSelector.swift in Sources */,
 				2F83EC6E2B13C55200C4FD2E /* ContentView.swift in Sources */,
-				2F7C85E72B48ABDE00FB7BF8 /* FileViewer.swift in Sources */,
+				2FFA4DE72B51BF14003B9B77 /* PanelModel.swift in Sources */,
+				2F7C85E72B48ABDE00FB7BF8 /* FilesView.swift in Sources */,
+				2FFA4DE92B51C25D003B9B77 /* PanelViewModel.swift in Sources */,
 				2F83EC6C2B13C55200C4FD2E /* GarbegorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

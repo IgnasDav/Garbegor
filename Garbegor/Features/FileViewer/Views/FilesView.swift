@@ -8,6 +8,7 @@ import SwiftUI
 
 struct FileViewer: View {
     @State private var files: [String] = []
+    @State private var filteredFileNames: [String] = []
     @State private var hourSelection: Date = .now
     @State private var isFileDeletionFinished = false
     @State private var fileTypes: [String] = []
@@ -18,30 +19,11 @@ struct FileViewer: View {
     private let path: String = "/Users/ignasdavulis/Desktop/"
     private let fileManager: FileManager = .default
     private let notificationService: NotificationService = NotificationService()
-   
+    
     var body: some View {
-       GeometryReader { metrics in
             HStack {
-                VStack {
-                    FileTypeSelector(selectedFileType: $fileType, fileTypes: fileTypes)
-                        .onChange(of: fileType) { newValue in
-                            files = files.filter({ file in
-                                file.contains(newValue)
-                            })
-                        }
-                    DateSelector(hourSelection: $hourSelection)
-                    Button("Exectute") {
-                        fileDeleter.handleTimerForDeleting(time: hourSelection)
-                    }
-                    Button("Search the Desktop files") {
-                        initFileViewer()
-                    }
-                    Spacer()
-                    }
-                .padding([.leading], 5)
-                .frame(width: metrics.size.width * 0.25)
                 List {
-                    ForEach(files, id: \.self) {
+                    ForEach(filteredFileNames, id: \.self) {
                         Text($0)
                     }
                     .onDelete { indexSet in
@@ -49,17 +31,18 @@ struct FileViewer: View {
                     }
                 }
             }
-        }
-        .onAppear(perform: initFileViewer)
     }
     
     private func initFileViewer() {
+        fileType = ""
         let notificationService: NotificationService = NotificationService()
         notificationService.requestAuth()
         viewDirFiles()
-            fileDeleter.dirPath = path
-            fileDeleter.fileNames = files
+        fileDeleter.dirPath = path
+        fileDeleter.fileNames = files
+        filteredFileNames = files
     }
+    
     private func viewDirFiles(fileType: String? = nil){
         do {
             files = try fileManager.contentsOfDirectory(atPath: path)
@@ -72,7 +55,6 @@ struct FileViewer: View {
                     temps.append(type)
                 }
             }
-            print(temps)
             fileTypes = temps
         } catch let err {
             print(err)
